@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.album-card {
+  text-decoration: none;
+  background-color: var(--album-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.album-card:hover {
+  transform: scale(1.03);
+}
+
+.album-card img {
+  width: 100%;
+  display: block;
+}
+
+.album-info {
+  padding: 0.5rem 1rem;
+  color: #000;
+}
+
+.album-info h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.album-info p {
+  margin: 0;
+  color: #555;
+}
+
+.album-page {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.album-details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.album-details img {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.track-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.track-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.album-lover {
+  background-color: #ffe6ec;
+  color: #660033;
+}
+
+.album-folklore {
+  background-color: #eeeeee;
+  color: #333;
+}
+
+.album-midnights {
+  background-color: #1a1a2e;
+  color: #f0f0f0;
+}
+
+.album-1989tv {
+  background-color: #dff2ff;
+  color: #003366;
+}
