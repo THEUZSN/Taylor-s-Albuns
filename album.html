@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Álbum - Taylor Swift</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/album.js"></script>
-</head>
-<body>
-  <header>
-    <h1 id="album-title">Álbum</h1>
-  </header>
-  <main class="album-page">
-    <section class="album-details">
-      <img id="album-cover" src="" alt="Capa do Álbum">
-      <div>
-        <p><strong>Ano:</strong> <span id="album-year"></span></p>
-        <p><strong>Gênero:</strong> <span id="album-genre"></span></p>
-      </div>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="album-title"></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/album.js"></script>
+    <link rel="shortcut icon" href="assets/icon.webp" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1 id="album-title">Álbum</h1>
+    </header>
+    <main class="album-page">
+      <section class="album-details">
+        <img id="album-cover" src="" alt="Capa do Álbum" />
+        <div>
+          <p><strong>Ano:</strong> <span id="album-year"></span></p>
+          <p><strong>Gênero:</strong> <span id="album-genre"></span></p>
+        </div>
+      </section>
 
-    <section>
-      <h2>Faixas</h2>
-      <ul id="tracklist" class="track-list"></ul>
-    </section>
+      <section>
+        <h2>Faixas</h2>
+        <ul id="tracklist" class="track-list"></ul>
+      </section>
 
-    <section>
-      <h2>Ouça no Spotify</h2>
-      <div id="spotify-embed"></div>
-    </section>
-  </main>
-</body>
+      <section>
+        <h2>Ouça no Spotify</h2>
+        <div id="spotify-embed"></div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -103,3 +103,33 @@ header {
   background-color: #f0e0d1;
   color: #663300;
 }
+
+.album-reputation {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.album-redtv {
+  background-color: #ffcccc;
+  color: #660000;
+}
+
+.album-speaknow {
+  background-color: #66003f;
+  color: #fff0b3;
+}
+
+.album-evermore {
+  background-color: #f5f5dc;
+  color: #333300;
+}
+
+.album-ttod {
+  background-color: #252521;
+  color: #ffffff;
+}
+
+.album-taylorswift {
+  background-color: #d3f8ff;
+  color: #00334d;
+}

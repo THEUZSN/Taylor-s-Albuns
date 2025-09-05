@@ -17,11 +17,102 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       spotify: "https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq"
     },
+
+    taylorswift: {
+      title: "Taylor Swift",
+      year: 2006,
+      genre: "Country",
+      cover: "assets/taylorswift.jpg",
+      tracks: [
+        "Tim McGraw",
+        "Teardrops On My Guitar",
+        "Our Song",
+        "Picture To Burn",
+        "Should've Said No"
+      ],
+      spotify: "https://open.spotify.com/embed/album/7mzrIsaAjnXihW3InKjlC3"
+    },
+
+    ttod : {
+      title: "The Tortured Poets Department",
+      year: 2024,
+      genre: "Pop",
+      cover: "assets/ttod.jpg",
+      tracks: [
+        "Fortnight (feat. Post Malone)",
+        "The Tortured Poets Department",
+        "Down Bad",
+        "So Long, London",
+        "But Daddy I Love Him"
+      ],
+      spotify: "https://open.spotify.com/embed/album/1Mo4aZ8pdj6L1jx8zSwJnt"
+    },
+
+    evermore: {
+      title: "Evermore",
+      year: 2020,
+      genre: "Indie Folk",
+      cover: "assets/evermore.png",
+      tracks: [
+        "willow",
+        "champagne problems",
+        "gold rush",
+        "tis the damn season",
+        "no body, no crime"
+      ],
+      spotify: "https://open.spotify.com/embed/album/2Xoteh7uEpea4TohMxjtaq"
+    },
+
+    redtv: {
+      title: "Red (Taylor's Version)",
+      year: 2021,
+      genre: "Pop",
+      cover: "assets/redtv.png",
+      tracks: [
+        "State Of Grace",
+        "Red",
+        "Treacherous",
+        "I Knew You Were Trouble",
+        "All Too Well"
+      ],
+      spotify: "https://open.spotify.com/embed/album/6kZ42qRrzov54LcAk4onW9"
+    },
+
+    speaknow: {
+      title: "Speak Now",
+      year: 2010,
+      genre: "Country",
+      cover: "assets/speaknow.png",
+      tracks: [
+        "Mine",
+        "Sparks Fly",
+        "Back To December",
+        "Mean",
+        "The Story Of Us"
+      ],
+      spotify: "https://open.spotify.com/embed/album/5EpMjweRD573ASl7uNiHym"
+    },
+    
+    reputation: {
+      title: "Reputation",
+      year: 2017,
+      genre: "Pop",
+      cover: "assets/reputation.png",
+      tracks: [
+        "...Ready For It?",
+        "End Game",
+        "I Did Something Bad",
+        "Don't Blame Me",
+        "Delicate"
+      ],
+      spotify: "https://open.spotify.com/embed/album/6DEjYFkNZh67HP7R9PSZvv"
+    },
+
     fearless: {
-      title: "Fearless",
+      title: "Fearless (Taylor's Version)",
       year: 2021,
       genre: "Country",
-      cover: "assets/Fearless.png",
+      cover: "assets/fearless.png",
       tracks: [
         "Fearless",
         "The Way I Loved You",
@@ -31,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       spotify: "https://open.spotify.com/embed/album/4hDok0OAJd57SGIT8xuWJH"
     },
+
     "1989tv": {
       title: "1989 (Taylor's Version)",
       year: 2023,
@@ -43,8 +135,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Out Of The Woods",
         "All You Had To Do Was Stay"
       ],
-  spotify: "https://open.spotify.com/embed/album/1o59UpKw81iHR0HPiSkJR0"
-},
+      spotify: "https://open.spotify.com/embed/album/64LU4c1nfjz1t4VnGhagcg"
+    },
+
     folklore: {
       title: "Folklore",
       year: 2020,
@@ -59,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       spotify: "https://open.spotify.com/embed/album/2fenSS68JI1h4Fo296JfGr"
     },
+
     midnights: {
       title: "Midnights",
       year: 2022,
@@ -71,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Snow On The Beach",
         "You're On Your Own, Kid"
       ],
-      spotify: "https://open.spotify.com/embed/album/151w1FgRZfnKZA9FEcg9Z3"
+      spotify: "https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq"
     }
     
   };
