@@ -17,6 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       spotify: "https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq"
     },
+    fearless: {
+      title: "Fearless",
+      year: 2021,
+      genre: "Country",
+      cover: "assets/Fearless.png",
+      tracks: [
+        "Fearless",
+        "The Way I Loved You",
+        "Love Story",
+        "You Belong With Me",
+        "White Horse"
+      ],
+      spotify: "https://open.spotify.com/embed/album/4hDok0OAJd57SGIT8xuWJH"
+    },
     "1989tv": {
       title: "1989 (Taylor's Version)",
       year: 2023,

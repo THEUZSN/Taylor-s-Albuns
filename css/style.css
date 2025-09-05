@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #797171;
   color: #333;
 }
 
@@ -97,4 +97,9 @@ header {
 .album-1989tv {
   background-color: #dff2ff;
   color: #003366;
+}
+
+.album-fearless {
+  background-color: #f0e0d1;
+  color: #663300;
 }
