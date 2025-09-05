@@ -18,7 +18,7 @@ Projeto criado para praticar **desenvolvimento web** e explorar conceitos de **f
 ---
 
 ## 📷 Preview
-![Preview do site](./assets/preview.png)
+![Preview do site](./assets/preview0.png)
 
 ---
 
