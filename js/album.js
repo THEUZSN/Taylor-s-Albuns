@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
-  const albumId = params.get('id');
+  const albumId = params.get("id");
 
   const albums = {
     lover: {
@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Cruel Summer",
         "Lover",
         "The Man",
-        "You Need To Calm Down"
+        "You Need To Calm Down",
       ],
-      spotify: "https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq"
+      spotify: "https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq",
     },
 
     taylorswift: {
@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
         "Teardrops On My Guitar",
         "Our Song",
         "Picture To Burn",
-        "Should've Said No"
+        "Should've Said No",
       ],
-      spotify: "https://open.spotify.com/embed/album/7mzrIsaAjnXihW3InKjlC3"
+      spotify: "https://open.spotify.com/embed/album/7mzrIsaAjnXihW3InKjlC3",
     },
 
-    ttod : {
+    ttod: {
       title: "The Tortured Poets Department",
       year: 2024,
       genre: "Pop",
@@ -43,39 +43,39 @@ document.addEventListener('DOMContentLoaded', () => {
         "The Tortured Poets Department",
         "Down Bad",
         "So Long, London",
-        "But Daddy I Love Him"
+        "But Daddy I Love Him",
       ],
-      spotify: "https://open.spotify.com/embed/album/1Mo4aZ8pdj6L1jx8zSwJnt"
+      spotify: "https://open.spotify.com/embed/album/1Mo4aZ8pdj6L1jx8zSwJnt",
     },
 
     evermore: {
       title: "Evermore",
       year: 2020,
       genre: "Indie Folk",
-      cover: "assets/evermore.png",
+      cover: "assets/Evermore.png",
       tracks: [
         "willow",
         "champagne problems",
         "gold rush",
         "tis the damn season",
-        "no body, no crime"
+        "no body, no crime",
       ],
-      spotify: "https://open.spotify.com/embed/album/2Xoteh7uEpea4TohMxjtaq"
+      spotify: "https://open.spotify.com/embed/album/2Xoteh7uEpea4TohMxjtaq",
     },
 
     redtv: {
       title: "Red (Taylor's Version)",
       year: 2021,
       genre: "Pop",
-      cover: "assets/redtv.png",
+      cover: "assets/Red.png",
       tracks: [
         "State Of Grace",
         "Red",
         "Treacherous",
         "I Knew You Were Trouble",
-        "All Too Well"
+        "All Too Well",
       ],
-      spotify: "https://open.spotify.com/embed/album/6kZ42qRrzov54LcAk4onW9"
+      spotify: "https://open.spotify.com/embed/album/6kZ42qRrzov54LcAk4onW9",
     },
 
     speaknow: {
@@ -88,39 +88,39 @@ document.addEventListener('DOMContentLoaded', () => {
         "Sparks Fly",
         "Back To December",
         "Mean",
-        "The Story Of Us"
+        "The Story Of Us",
       ],
-      spotify: "https://open.spotify.com/embed/album/5EpMjweRD573ASl7uNiHym"
+      spotify: "https://open.spotify.com/embed/album/5EpMjweRD573ASl7uNiHym",
     },
-    
+
     reputation: {
       title: "Reputation",
       year: 2017,
       genre: "Pop",
-      cover: "assets/reputation.png",
+      cover: "assets/Reputation.png",
       tracks: [
         "...Ready For It?",
         "End Game",
         "I Did Something Bad",
         "Don't Blame Me",
-        "Delicate"
+        "Delicate",
       ],
-      spotify: "https://open.spotify.com/embed/album/6DEjYFkNZh67HP7R9PSZvv"
+      spotify: "https://open.spotify.com/embed/album/6DEjYFkNZh67HP7R9PSZvv",
     },
 
     fearless: {
       title: "Fearless (Taylor's Version)",
       year: 2021,
       genre: "Country",
-      cover: "assets/fearless.png",
+      cover: "assets/Fearless.png",
       tracks: [
         "Fearless",
         "The Way I Loved You",
         "Love Story",
         "You Belong With Me",
-        "White Horse"
+        "White Horse",
       ],
-      spotify: "https://open.spotify.com/embed/album/4hDok0OAJd57SGIT8xuWJH"
+      spotify: "https://open.spotify.com/embed/album/4hDok0OAJd57SGIT8xuWJH",
     },
 
     "1989tv": {
@@ -133,41 +133,34 @@ document.addEventListener('DOMContentLoaded', () => {
         "Blank Space",
         "Style",
         "Out Of The Woods",
-        "All You Had To Do Was Stay"
+        "All You Had To Do Was Stay",
       ],
-      spotify: "https://open.spotify.com/embed/album/64LU4c1nfjz1t4VnGhagcg"
+      spotify: "https://open.spotify.com/embed/album/64LU4c1nfjz1t4VnGhagcg",
     },
 
     folklore: {
       title: "Folklore",
       year: 2020,
       genre: "Indie Folk",
-      cover: "assets/folklore.webp",
-      tracks: [
-        "the 1",
-        "cardigan",
-        "exile",
-        "my tears ricochet",
-        "august"
-      ],
-      spotify: "https://open.spotify.com/embed/album/2fenSS68JI1h4Fo296JfGr"
+      cover: "assets/Folklore.webp",
+      tracks: ["the 1", "cardigan", "exile", "my tears ricochet", "august"],
+      spotify: "https://open.spotify.com/embed/album/2fenSS68JI1h4Fo296JfGr",
     },
 
     midnights: {
       title: "Midnights",
       year: 2022,
       genre: "Synth-pop",
-      cover: "assets/midnights.jpeg",
+      cover: "assets/Midnights.jpeg",
       tracks: [
         "Lavender Haze",
         "Maroon",
         "Anti-Hero",
         "Snow On The Beach",
-        "You're On Your Own, Kid"
+        "You're On Your Own, Kid",
       ],
-      spotify: "https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq"
-    }
-    
+      spotify: "https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq",
+    },
   };
 
   if (!albumId || !albums[albumId]) {
@@ -184,9 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById("album-genre").textContent = album.genre;
   document.body.classList.add(`album-${albumId}`);
 
-
   const tracklist = document.getElementById("tracklist");
-  album.tracks.forEach(track => {
+  album.tracks.forEach((track) => {
     const li = document.createElement("li");
     li.textContent = track;
     tracklist.appendChild(li);
